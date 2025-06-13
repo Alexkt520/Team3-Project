@@ -1,0 +1,265 @@
+<html>
+<head>
+    <title>Eloheh Healthcare | Our Services</title>
+    <link rel="icon" href="icon.png" type="webp">
+    <style>
+        :root {
+            --primary: #4FBBF1;
+            --secondary: #43a047;
+            --accent: #ff5722;
+            --light: #e3f2fd;
+            --dark: #263238;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f9ff;
+            color: var(--dark);
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 30px 10px 20px 20px;
+            margin-bottom: 30px;
+            margin-top: 10px;
+            margin-right: 17px;
+            margin-left: 10px;
+            border-radius: 12px;
+        }
+        h2, h3, h4 {
+            color: var(--primary);
+        }
+        h2 {
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .intro-box {
+            max-width: 1000px;
+            background-color: white;
+            padding: 25px;
+            margin: 0 auto 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        .highlight {
+            color: var(--primary);
+            font-weight: bold;
+            font-style: italic;
+        }
+        .services-section {
+            background-color: var(--light);
+            padding: 40px 20px;
+            border-radius: 8px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+        .bottom-row {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 25px;
+        }
+        .service-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+            width: 320px;
+            margin-left: 25px;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .service-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .service-card p {
+            font-size: 0.95em;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .service-card ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        .service-card li {
+            margin-bottom: 6px;
+        }
+        .action-link {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+        .action-link:hover {
+            background-color: #388e3c;
+        }
+        .footer-links {
+            text-align: center;
+            margin: 40px auto 60px;
+            line-height: 2em;
+        }
+        .download-link {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            padding: 12px 22px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+        .download-link:hover {
+            background-color: #388e3c;
+        }
+        
+        footer {
+            background-color: #959d9f;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px 20px 20px 20px;
+            margin-top: 30px;
+            border-radius: 12px;
+        }
+        .footer-date {
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        .contact-link {
+            color: var(--primary);
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .external-link {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            }
+            .bottom-row {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eloheh Healthcare | Services</h1>
+        <p style="font-size: 1.07em;">Empowering communities through compassionate and tech-enabled healthcare</p>
+    </header>
+
+    <main>
+        <h1 style="text-align: center;color:#1e88e5;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Explore Our Comprehensive Services</h1>
+
+        <div class="intro-box">
+            <p><b>Eloheh</b> offers a full spectrum of professional healthcare services tailored to modern needs. Whether it's preventive care or chronic disease support, our goal is to make healthcare <span class="highlight">accessible</span>, <span class="highlight">personalized</span>, and <span class="highlight">impactful</span>.</p>
+        </div>
+
+        <div class="services-section">
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="service2-Telecare Support.png" alt="TeleCare">
+                    <h4 style="font-size: 1.2em;">TeleCare Support</h4>
+                    <p>Instant access to certified healthcare professionals through secure virtual consultations—available 24/7.</p>
+                    <ul>
+                        <li>Minor illness diagnosis</li>
+                        <li>Mental health therapy</li>
+                        <li>Post-treatment follow-ups</li>
+                    </ul>
+                
+                </div>
+
+                <div class="service-card">
+                    <img src="service1-Chornic Care Management.png" alt="Chronic Care">
+                    <h4 style="font-size: 1.2em;">Chronic Care Management</h4>
+                    <p>Ongoing support for patients with long-term health conditions, with tailored plans and continuous monitoring.</p>
+                    <ul>
+                        <li>Diabetes and hypertension programs</li>
+                        <li>Remote health data tracking</li>
+                        <li>Diet and medication coaching</li>
+                    </ul>
+                
+                </div>
+
+                <div class="service-card">
+                    <img src="service3-Mobile Health Clinic.png" alt="Mobile Clinics">
+                    <h4 style="font-size: 1.2em;">Mobile Health Clinics</h4>
+                    <p>Mobile medical vans equipped with essential services reaching rural and underserved neighborhoods.</p>
+                    <ul>
+                        <li>Vaccinations and screenings</li>
+                        <li>Primary care check-ups</li>
+                        <li>Women's health support</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="bottom-row">
+                <div class="service-card">
+                    <img src="service4-Medical Equipment Rental.png" alt="Equipment Rental">
+                    <h4 style="font-size: 1.2em;">Medical Equipment Rental</h4>
+                    <p>Affordable, high-quality equipment rentals with delivery and in-home setup included.</p>
+                    <p style="color: red;font-size: 1.05em;"><b><u><i>Key Points:</i> </u></b></p>
+                    <ol>
+                        <li>Hospital beds & mobility aids</li>
+                        <li>Respiratory machines</li>
+                        <li>24/7 tech support</li>
+                    </ol>
+                    <a href="service-inventory equipemnts.pdf" target="_blank"   class="action-link">View the inventory of equipments</a>
+                    
+                </div>
+
+                <div class="service-card">
+                    <img src="service5-Homecare Services.png" alt="Homecare Services">
+                    <h4 style="font-size: 1.2em;">Homecare Services</h4>
+                    <p>Professional caregivers providing support in the comfort of patients' homes to promote independence and recovery.</p>
+                    <p style="color: red;font-size: 1.05em;"><b><u><i>Key Points:</i> </u></b></p>
+                    <ol>
+                        <li>Skilled nursing visits</li>
+                        <li>Assistance with daily living</li>
+                        <li>Rehabilitation and therapy</li>
+                    </ol>
+                    <a href="https://en.wikipedia.org/wiki/Home_care" target="_blank" class="action-link">Discover what is Homecare</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h3 style="color:#263238;">Interested in Our Healthcare Service?</h3>
+            <p style="font-size: 1.1em;">Contact us!</p>
+
+            <a href="mailto:sun1116@purdue.edu" >support@ElohehHealthcare.com</a>
+          
+        </div>
+    </main>
+
+    <footer>
+        <p>Eloheh Healthcare &copy; 2025</p>
+        <div class="footer-date">
+            <script>document.write("Last Modified: " + document.lastModified);</script>
+        </div>
+    </footer>
+</body>
+</html>

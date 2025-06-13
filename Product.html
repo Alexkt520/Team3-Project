@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eloheh Healthcare | Advanced Healthcare Products</title>
+    <link rel="icon" href="icon.png" type="webp">
+    <style>
+        :root {
+            --primary: #4FBBF1;
+            --secondary: #43a047;
+            --accent: #ff5722;
+            --light: #e3f2fd;
+            --dark: #263238;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f9ff;
+            color: var(--dark);
+            padding: 20px 0px 20px 20px;
+            margin-bottom: 30px;
+            margin-right: 30px;
+            border-radius: 12px;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 30px 0px 20px 20px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+        }
+        .section-title {
+            color: var(--primary);
+            text-align: center;
+            font-size: 1.8em;
+            margin: 40px 0 20px;
+            font-weight: bold;
+        }
+        .highlight {
+            color: var(--accent);
+            font-style: italic;
+            font-weight: bold;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        .product-content {
+            padding: 25px;
+        }
+        .product-name {
+            font-size: 1.4em;
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .product-desc {
+            line-height: 1.6;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+        }
+        .feature-list {
+            margin: 15px 0;
+        }
+        .feature-list p {
+            color: var(--secondary);
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        .feature-list ul {
+            padding-left: 20px;
+        }
+        .feature-list li {
+            margin-bottom: 8px;
+            position: relative;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: var(--secondary);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #388e3c;
+        }
+        .benefits-section {
+            background-color: var(--light);
+            padding: 20px 20px;
+            border-radius: 8px;
+            margin: 50px 0;
+        }
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .benefit-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .benefit-card h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        .contact-section {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        footer {
+            background-color: #959d9f;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px 20px 20px 20px;
+            margin-top: 30px;
+            border-radius: 12px;
+        }
+        .footer-date {
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Eloheh Healthcare | Products</h1>
+        <p style="font-size: 1.1em;">Advancing Healthcare Through Technology and Compassion</p>
+    </header>
+
+    <main>
+        <!-- Section title for product solutions -->
+        <h2 class="section-title" style="text-align: center;color:#1e88e5;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Our Healthcare Product Solutions</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; font-size: 1.1em;">Discover our range of medical devices and solutions designed to enhance patient care, improve diagnostics, and simplify healthcare management.</p>
+
+        <!-- Product grid layout -->
+        <div class="product-grid">
+
+            <!-- Smart Blood Pressure Monitor product card -->
+            <div class="product-card">
+                <img src="https://i.ibb.co/xqwNRgn5/IMG-0747.jpg" alt="Smart Blood Pressure Monitor" class="product-image">
+                <div class="product-content">
+                    <h3 class="product-name">SmartVitals Blood Pressure Monitor</h3>
+                    <p class="product-desc">A <i>wireless</i>, <i>medical-grade blood pressure</i> monitor with <u>AI-powered analytics</u>, designed for at-home use and seamless integration with electronic health records.</p>
+                    
+                    <div class="feature-list">
+                        <p style="font-size: 1.1em;"><b>Key Features:</b></p>
+                        <ul>
+                            <li><b>FDA-cleared</b> for clinical accuracy</li>
+                            <li>Mobile app sync for <b>real-time</b> data tracking</li>
+                            <li>Irregular heartbeat detection</li>
+                            <li>One-touch operation for elderly users</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="product-blood pressure guide.pdf" class="download-btn" download>Download Product Guide</a>
+                </div>
+            </div>
+
+            <!-- Remote Health Monitoring System product card -->
+            <div class="product-card">
+                <img src="https://i.ibb.co/VWDLYt6B/IMG-0748.webp" alt="Remote Health Monitoring System" class="product-image">
+                <div class="product-content">
+                    <h3 class="product-name">TeleCare Remote Monitoring System</h3>
+                    <p class="product-desc">A comprehensive <i>remote</i> patient monitoring solution that tracks <u>vital signs, symptoms, and activity levels</u>, enabling proactive healthcare management.</p>
+                    
+                    <div class="feature-list">
+                        <p style="font-size: 1.1em;"><b>Key Features:</b></p>
+                        <ol>
+                            <li>Multi-parameter monitoring (BP, HR, SpO2, etc.)</li>
+                            <li>Automatic <b>alert system</b> for critical readings</li>
+                            <li>Secure HIPAA-compliant data transmission</li>
+                            <li>Customizable care plans for chronic conditions</li>
+                        </ol>
+                    </div>
+                    
+                
+                </div>
+            </div>
+
+            <!-- Portable ECG Monitor product card -->
+            <div class="product-card">
+                <img src="https://i.ibb.co/SXr67Wts/IMG-0749.jpg" alt="Portable ECG Monitor" class="product-image">
+                <div class="product-content">
+                    <h3 class="product-name">CardioCheck Portable ECG Device</h3>
+                    <p class="product-desc">A <i>palm-sized</i> electrocardiogram monitor that provides <u>clinical-grade ECG readings</u> anywhere, ideal for patients with arrhythmia or cardiac concerns.</p>
+                    
+                    <div class="feature-list">
+                        <p style="font-size: 1.1em;"><b>Key Features:</b></p>
+                        <ul>
+                            <li>3-lead ECG with 12-lead interpretation</li>
+                            <li>Rechargeable battery for <b>72-hour use</b></li>
+                            <li>Instant analysis with <b>AI diagnostic support</b></li>
+                            <li>Water-resistant design for active users</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="https://en.wikipedia.org/wiki/Electrocardiography" target="_blank" class="download-btn">Learn More About ECG</a>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <hr>
+        <!-- Benefits section highlighting product advantages -->
+        <div class="benefits-section">
+            <h2 class="section-title" style="text-align: center;color:#1e88e5;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Why Choose Eloheh Healthcare Products?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Clinical Accuracy</h3>
+                    <p>All products undergo rigorous testing to meet medical standards, ensuring reliable data for diagnosis and treatment.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Patient-Friendly Design</h3>
+                    <p>Intuitive interfaces and ergonomic designs make our devices easy to use for patients of all ages and abilities.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Seamless Integration</h3>
+                    <p>Compatible with leading EHR systems and telehealth platforms, streamlining workflow for healthcare providers.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Continuous Support</h3>
+                    <p>24/7 technical support and software updates ensure your devices stay at the cutting edge of healthcare technology.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact section for product inquiries -->
+        <div class="contact-section">
+            <h3 style="color:#263238;">Interested in Our Healthcare Products?</h3>
+            <p style="font-size: 1.1em;">Contact us!</p>
+
+            <a href="mailto:sun1116@purdue.edu" >support@ElohehHealthcare.com</a>
+        </div>
+
+    
+    </main>
+
+    <!-- Footer with company info and last modified date -->
+    <footer>
+        <p>Eloheh Healthcare &copy; 2025</p>
+    
+        <div class="footer-date">
+            <script>document.write("Last Modified: " + document.lastModified);</script>
+        </div>
+    </footer>
+</body>
+</html>

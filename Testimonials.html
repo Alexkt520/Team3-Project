@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eloheh Healthcare | Customer Testimonials</title>
+    <link rel="icon" href="icon.png" type="webp">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+        }
+
+        header {
+            background-color: #4FBBF1;
+            color: white;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 30px 0px 20px 20px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+        
+            margin-top: 30px;
+            margin-left: 20px;
+            margin-right: 25px;
+
+        }
+
+
+        .container {
+            max-width: 1310px;
+            margin: 10px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro,
+        .story,
+        .testimonial,
+        .appreciation,
+        .sources,
+        .download-link,
+        .contact,
+        .external-link {
+            margin-bottom: 30px;
+        }
+
+        .intro p,
+        .story p {
+            margin-top: 10px;
+        }
+
+        .section-title {
+            text-align: center;
+            color:#1e88e5;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+            margin-top: 40px;
+
+        }
+
+        .testimonial {
+            background-color: #eaf3fb;
+            border-left: 4px solid #1976d2;
+            padding: 16px;
+            margin: 20px 100px;
+            border-radius: 6px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            color: #444;
+            font-size: 1.1em;
+        }
+
+        .testimonial strong {
+            display: block;
+            margin-top: 5px;
+            font-size: 14px;
+            color: #1976d2;
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+            margin-left: 20px;
+        }
+
+        a {
+            color: #1976d2;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .more-info {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f2f9ff;
+            border-left: 4px solid #1976d2;
+            border-radius: 8px;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+ 
+
+        footer {
+            background-color: #263238;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px 20px 30px 30px;
+            margin-top: 40px;
+            border-radius: 12px;
+        }
+        footer {
+            background-color: #959d9f;
+            text-align: center;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 10px 20px 20px 20px;
+            margin-top: 30px;
+            border-radius: 12px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .showGrid {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .showStory {
+            display: grid;
+            grid-template-columns: auto auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .storycard {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .showGridnew {
+            
+            display: grid;
+            grid-template-columns: 8% 92%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .endGrid {
+            
+            display: grid;
+            grid-template-columns: auto auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        
+        .sources {
+            background: white;
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+
+        }
+
+        .appreciation {
+            background: white;
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+
+        }
+
+        .infoGrid {
+            
+            display: grid;
+            grid-template-columns: 50% 50%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            gap: 20px;
+            max-width: 1300px;
+            margin: 0 auto;
+            text-align:center;
+        }
+
+        .info {
+            background: #e0f7fa;
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+
+        }
+
+        .contactus {
+            text-align: center;
+            margin: 40px auto 60px;
+            line-height: 2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1> Eloheh Healthcare | Testimonials</h1>
+        <p style="font-size: 1.1em;">We are committed to ensuring customer satisfaction</p>
+    </header>
+
+    <div class="container">
+
+        
+            <div class="intro">
+                <h1 class="section-title">Our Clients' Voices</h1>
+
+                <div class="showGrid">
+                    <div class="para" style="margin:20px;">
+                        <p style="font-size: 13pt; text-align: left; text-indent:50px; line-height: 1.8em;">At Eloheh, we believe that the best measure of our impact comes directly from those we serve. From
+                    individuals managing chronic conditions to caregivers seeking dependable solutions, our clients share
+                    their real stories and honest feedback. Their experiences inspire us to innovate, improve, and continue
+                    our mission of delivering accessible, reliable, and compassionate healthcare products and services.</p>
+                        <p style="font-size: 13pt; text-align: left; text-indent:50px; line-height: 1.8em;">Explore their testimonials and discover how Eloheh makes a difference every day.</p>
+                    </div>
+
+
+                    <div class="photo">
+                        <img src="healthcare3.jpg" alt="Eloheh clients" style="width: 70%; height: auto; object-fit: cover;margin-left: 80px;">
+                    </div>
+                </div>   
+            </div>
+
+    </div>        
+            
+
+             
+        <div class="story">
+            <h1 class="section-title">Success Stories</h1>
+
+            <div class="showStory">
+                <div class="storycard">
+                    <p style="line-height: 1.8em;"><strong style="color:#1976d2;font-size: 1.2em;">Maria G. – Stroke Recovery</strong><br>
+                        After her stroke, Maria began using Eloheh’s smart rehabilitation wearable. “The device gave me the
+                        confidence to walk again,” she says. With daily progress tracking and real-time feedback, Maria felt
+                        empowered and supported through her recovery journey.</p>
+                </div>
+                <div class="storycard">
+                    <p style="line-height: 1.8em;"><strong  style="color:#1976d2;font-size: 1.2em;">Westwood Retirement Community</strong><br>
+                        This senior living facility adopted Eloheh’s telehealth system to provide residents with access to
+                        remote care. Since implementation, the community has reported faster response times, increased resident
+                        satisfaction, and a stronger connection with healthcare providers.</p>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="testimonial">
+            <div class="showGridnew">
+                <div class="part1">
+                    <img src="testimonial-people1.webp" alt="Invalid Photo" style="width: 100%; height: auto; object-fit: cover;">
+                </div>
+                <div class="part2" style="margin-left: 20px;">
+                    <p>“Thanks to <span class="highlight">Eloheh</span>’s home care service, my grandmother is now enjoying her
+                        life again. The staff are professional, warm, and attentive.”</p>
+                    <strong>– Sarah M., New York</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <div class="showGridnew">
+
+                <div class="part1">
+                    <img src="testimonial-people2.webp" alt="Invalid Photo" style="width: 100%; height: auto; object-fit: cover;">
+                </div>
+
+                <div class="part2" style="margin-left: 20px;">
+                    <p>“The <span style="color: darkgreen;">telehealth</span> support helped me recover faster without needing
+                        to leave home. <span class="highlight">Highly recommended!</span>”</p>
+                    <strong>– James T., Chicago</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <div class="showGridnew">
+                <div class="part1">
+                    <img src="testimonial-people3.jpg" alt="Invalid Photo" style="width: 100%; height: auto; object-fit: cover;">
+                </div>
+
+                <div class="part2" style="margin-left: 20px;">
+                    <p>“I was nervous after surgery, but the home nurse team made me feel safe and cared for. They even helped
+                        with physical therapy at home.”</p>
+                    <strong>– Linda C., Seattle</strong>
+                </div>
+            </div>
+        </div>
+        
+        <br><br>
+
+         <div class="endGrid">
+            <div class="appreciation" style="padding-left: 20px;">
+                <h2 style="line-height: 1.8em;color:#1976d2;font-size: 1.2em;text-align: center;"><strong>Why Our Customers Love Us</strong></h2>
+                <ul>
+                    <li>Warm and professional caregivers</li>
+                    <li>Fast response time and follow-ups</li>
+                    <li>Modern telehealth integration</li>
+                    <li>Affordable pricing with insurance support</li>
+                </ul>
+            </div>
+
+            
+            <div class="sources" style="padding-left: 20px;">
+                <h2 style="line-height: 1.8em;color:#1976d2;font-size: 1.2em;text-align: center;"><strong>Sources of Feedback</strong></h2>
+
+                <ol>
+                    <li>2024 Satisfaction Survey (1,000+ responses)</li>
+                    <li>Verified Google Business Reviews</li>
+                    <li>Community Health Forum Testimonials</li>
+                </ol>
+            </div>
+        </div>
+        
+        
+
+
+
+        <h1 class="section-title">More Information</h1>
+
+        <div class="infoGrid">
+            <div class="info">
+                <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Interested in learning more about how Eloheh supports healthy living?</h4>
+                <p>
+                <br>
+                 <a href="https://www.nih.gov/health-information"
+                    target="_blank">Visit for expert health resources</a> 
+                </p>
+            </div>
+
+            
+            <div class="info">
+                <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">View more success stories?</h4>
+                <p>
+                <a href="testimonials-success stories.pdf">📎 Download our full report</a>
+            </p>
+            </div>
+        </div>
+    <br>
+    <hr>
+    <div class="contactus">
+            <h3 style="color:#263238;">Interested in Our Healthcare Products or Service?</h3>
+            <p style="font-size: 1.1em;">Contact us!</p>
+
+            <a href="mailto:sun1116@purdue.edu" >support@ElohehHealthcare.com</a>
+          
+        </div>
+    
+    <footer>
+        <p>Eloheh Healthcare &copy; 2025</p>
+        <script>
+            document.write("Last Modified: " + document.lastModified);
+        </script>
+    </footer>
+
+</body>
+
+</html>
